@@ -70,3 +70,5 @@ const BLOG = {
   // uuid重定向至 slug
   UUID_REDIRECT: process.env.UUID_REDIRECT || false
 }
+
+module.exports = BLOG
