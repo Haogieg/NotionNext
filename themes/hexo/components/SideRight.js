@@ -64,7 +64,7 @@ export default function SideRight(props) {
           </Card>
         )}
 
-        <InfoCard {...props} />
+{/*<InfoCard {...props} /> */}
         {siteConfig('HEXO_WIDGET_ANALYTICS', null, CONFIG) && (
           <AnalyticsCard {...props} />
         )}
@@ -85,13 +85,14 @@ export default function SideRight(props) {
             <TagGroups tags={tags} currentTag={currentTag} />
           </Card>
         )}
-        {siteConfig('HEXO_WIDGET_LATEST_POSTS', null, CONFIG) &&
+        {/*{siteConfig('HEXO_WIDGET_LATEST_POSTS', null, CONFIG) &&
           latestPosts &&
           latestPosts.length > 0 && (
             <Card>
               <LatestPostsGroup {...props} />
             </Card>
           )}
+          */}
 
         <Announcement post={notice} />
 
